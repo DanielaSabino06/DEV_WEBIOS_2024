@@ -1,0 +1,42 @@
+#p1{
+    color: blueviolet;
+}
+/* toda vez que eu precisar acessar o id no css, devo utilizar o # antes do nome do identificador */
+
+#p2{
+    color: rgb(138, 75, 238);
+}
+
+/* toda vez que eu precisar acessar o class no css, devo utilizar o . antes do nome do identificador */
+.divs{
+    background-color: rgb(186, 248, 227);
+}
+
+.d1{
+    border: solid 2px black;
+}
+/* Crie duas sections e dentro de cada uma crie uma tag h3, uma tag a(link)  coloque a cor de fundo da primeira tag section de vermelho, a segunda tag section deve ter a cor de fundo roxo, mude a cocor da primeira tag A para banco e tamanho da fonte para 35px, na segunda tag "a" crie uma coloque a cor do texto de cinza e tamanho da fonte de 54px, as duas tags h3 deve ter a cor verde e cor de fundo branco*/
+
+#sec1{
+    background-color: red;
+}
+
+
+#sec2{
+background-color:blueviolet;
+}
+
+.cinza{
+    color:green ;
+    background-color: white;
+}
+
+#tag1{
+    color: white;
+    font-size: 35px;
+}
+
+#tag2{
+    color:gray;
+    font-size: 54px;
+}
