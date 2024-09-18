@@ -1,3 +1,8 @@
+*{
+    background-color: rgb(132, 186, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #p1{
     color: blueviolet;
 }
@@ -40,3 +45,14 @@ background-color:blueviolet;
     color:gray;
     font-size: 54px;
 }
+
+/* seletor elemento elemento, acessa a tag pai e aplica na tag filho */
+ section h3, H2{
+    color: green;
+ }
+
+ nav a, p6, h5{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ 
