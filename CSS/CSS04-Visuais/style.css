@@ -1,0 +1,48 @@
+/* caminho para chamar imagem para ser fundo do html, se colocar
+a propriedade background-size 100% ocupa todo o fundo 
+background-position te ajuda a centralizar a imagem ex: 50% fica exatamente no meio, tirando o size
+o bac-attachment fixed faz a imagem fixar e só rolar o conteudo*/
+body{
+    background-image: url(./esse.jpg);
+    background-size: 50%;
+    background-attachment: fixed;
+}
+
+/* configurando espessura da borda, cor e estilo sólido */
+#p1{
+    /* border-width: 4px;
+    border-color: aquamarine;
+    border-style: solid; */
+    color: green;
+    border: 3px aquamarine outset;
+}
+
+#p2{text-shadow: 1px 1px 1px forestgreen;
+    /* primeiro  valor vertical seg valor horzontal, terceiro valor é o raio, menos raio, menos embaçado */
+    /* border: 5px rgb(119, 2, 2) groove; */
+}
+
+img{width: 250px;
+    height: 200px;
+    
+}
+    
+    
+
+figure{
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+
+/* alinha o texto ao centro */
+figcaption{
+    text-align: center;
+}
+ 
+/* box-shadow aplica sombras para imagens */
+#pato1{ box-shadow: 10px 10px 10px rgb(133, 235, 133);
+
+ }
+
+
