@@ -1,0 +1,22 @@
+p {
+    
+    font-weight: 900;
+    color: aliceblue;
+    background-color: rgb(219, 8, 8);
+    font-style: italic;
+    line-height: 100%;
+}
+    
+
+img{
+    height: 100%;
+    width: 50%;
+}
+   
+#paragrafo1{
+    /* font-size conf tamanho texto */
+    font-size: 3rem;
+    /* 16px
+    48px */
+}
+    
