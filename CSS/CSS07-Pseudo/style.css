@@ -1,0 +1,31 @@
+button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+/* border-radius arredonda as bordas */
+    border: solid 2px green;
+
+}
+/* configura como fica quando passar o cursor em cima do botão */
+button:hover{
+    background-color: rgb(204, 0, 0);
+    color: black;
+    border-color: rgb(13, 61, 1);
+    cursor: pointer;
+}
+    
+/* configurando para mudar aa cor do texto ao passar o cursor */
+p:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: antiquewhite;
+}
+
+/* first-child seleciona o primeiro filho (tag) e last-child acha a ultima nth-child(4)  seleciona a q você qiser */
+li:nth-child(3){
+    border:1px solid orangered;
+}
