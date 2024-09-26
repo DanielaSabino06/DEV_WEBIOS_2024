@@ -29,3 +29,49 @@ input:focus{
 li:nth-child(3){
     border:1px solid orangered;
 }
+
+
+/* aqui você consegue fazer configurações depois da tag */
+#P2::after{      
+    content: " - aqui eu add o after";
+    border: 1px dotted black;
+}
+
+/* aqui você consegue fazer confifurações antes da tag */
+
+#P2::before{
+    content: "aqui eu add o before";
+    border: solid 2px red;
+}
+
+.P3::first-letter{
+    font-size: 40px;    
+    color: brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+.P3::first-line{
+    background-color: aquamarine;
+    color:blue;
+}
+
+#P5::selection{
+    background-color: yellow;
+    color: blue;
+   
+}
+
+/* #P5::selection{
+    background-color: yellow;
+    color: blue;    aqui selecionamos outra cor de fundo e cor ao selecionar o texto */
+
+
+   
+
+
+/* font-size: 40px; tamanho da fonte    
+    color: brown; cor 
+    font-family:Georgia, 'Times New Roman', Times, serif; (fonte)
+    font-weight: 500; espessura da fonte*/ 
