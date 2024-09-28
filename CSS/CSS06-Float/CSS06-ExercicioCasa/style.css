@@ -1,5 +1,112 @@
 body{
+    background-color: rgb(209, 235, 235);
     margin: auto;
-    width: 2em;
-    border: 1px solid black;
+    width: 80%;
+   
 }
+    
+#velozes1{
+    margin-top: 20px;
+    
+}
+   
+.container1{
+    border: 1px solid black;
+    padding: 30px;
+    
+}
+
+#img1{
+    border: 1px solid black;
+    width: 195px; 
+    height: 140px;
+   padding: 20px;
+    margin-left: 5px;
+}
+
+
+
+
+.container2{
+    border: 1px solid black;
+    padding: 30px;
+    
+}
+
+#img2{
+    border: 1px solid black;
+    width: 190px; 
+    margin-top: 0px;
+    padding-left: 10px;
+    float: left;
+    margin-left: 5px;
+}
+
+
+.container3{
+    border: 1px solid black;
+    padding: 30px;
+    
+}
+
+#img3{
+    border: 1px solid black;
+    width: 195px; 
+    padding-left: 10px;
+    float: right ;
+    margin-right:  5px;
+    margin-top: 10px;
+}
+    
+
+
+.container4{
+    border: 1px solid black;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+
+#img4{
+    border: 1px solid black;
+    width: 195px; 
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    
+   
+   
+   
+}
+
+#img5{
+    border: 1px solid black;
+    width: 195px; 
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+
+    
+    }
+
+
+    #texto{
+        clear: none;
+
+    }
+
+    
+   
+   
+
+    
+    
+    
+    
+
+
+    
+
+   
+        
+

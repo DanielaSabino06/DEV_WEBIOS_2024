@@ -7,8 +7,9 @@ img{
 #img2{
     float: right;
     margin-right: 5px;
+    
 }
     
 p{
-    clear: both;
+    clear: none;
 }
