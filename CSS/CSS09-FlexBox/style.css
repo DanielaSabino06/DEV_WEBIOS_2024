@@ -1,0 +1,56 @@
+#container{
+    height: 70vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* flax-wrap: wrap  responsividade, nowrap sobrepõe (overflow)*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    background: linear-gradient(to bottom, #a18cd1 , #fbc2eb);
+    
+
+   
+}
+
+
+.item{
+    border: 2px solid black;
+    width: 60px;     
+    height: 60px;
+    background-image: linear-gradient(to bottom right, #833eb4, #fd1d1d, #fcb045)
+
+}
+
+.item-1{
+    height: 20px;
+    background-image: linear-gradient(to bottom right, #833eb4, #fd1d1d, #fcb045);
+    flex-grow: 1;
+    /* flex-grow: 1; espaço que vai ocupar */
+    
+}
+
+#container2{
+    display: flex;
+    /* flex-direction: row-reverse;
+    margin: 50px; */
+    justify-content: center;
+  
+}
+
+
+
+
+
+/* A propriedade justify-content configura como o navegador irá exibir qualquer espaço extra que possa existir no container, ou seja, ela define o alinhamento ao longo do main-axis do container.
+flex-start vem padrão colado a esquerda
+flex-end cola a  direita e center ao centro
+justify-content: space-between; cria os msm espaçamentos entre */
+
+/* A propriedade align-itens define o comportamento padrão de como os itens flex estão dispostos ao longo do cross-axis. Ele faz a mesma função para o cross-axis, quanto o justify-content para o main-axis.
+ align-items:stretch; estica os itens, mas precisa comentar a altura fixa configurada do filho
+ */
+
+
+
+   
+    
