@@ -30,6 +30,9 @@
     
 }
 
+/* toda vez que a propriedade tiver 'self' é para o s filhos */
+
+/* place self faz <align-self> / <justify-self> junto */
 
 .item{
     border:  1px solid black;
@@ -48,7 +51,7 @@
     /* grid-area: filme; */
     grid-column: 1/3;
     /* grid column start - grid colunm end */
-    
+
     grid-row: 2/3;
 }
 
