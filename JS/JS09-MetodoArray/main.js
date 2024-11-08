@@ -3,12 +3,20 @@ let frutas = ["morango", "banana", "kiwi", "maça", "manga", "mamao", "abacaxi",
 
 // percorrerr o array
 
-frutas.forEach(percorrer)
+// é o msm que  (=>  é function percorrer) (valor,     indice){
+frutas.forEach((valor, indice) => {
+    console.log(valor); 
+    console.log(indice);
+})
+
+
+// frutas.forEach(percorrer)
+
              //conteudo      //indice numero
-function percorrer(valor,     indice){
- console.log(valor); 
- console.log(indice);
-}
+// function percorrer(valor,     indice){
+//  console.log(valor); 
+//  console.log(indice);
+// }
 
 // for (i = 0; i  <= frutas.length  ; i++){
 // console.log(frutas[i]); // conteudo da posição (nomes)
